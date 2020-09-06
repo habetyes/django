@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Course Sign Up Page</h1>
+
+    <p>Please Note: First Name, Last Name, Password, and Email are required</p>
+   
+    <form action="C:\Users\danny.habetyes\Desktop\django\HTML_Level_Two\thankyou.html" method="get">
+        
+        <label for="first">First Name:</label>
+        <input type="text" name='first' id='first' placeholder="First Name">
+        <label for="last">Last Name:</label>
+        <input type="text" name="last" id='last' placeholder="Last Name">
+        
+        <p></p>
+        <label for="email">Email:</label>
+        <input type="email" id="email" placeholder="name@email.com" required>
+        <label for="password">Password:</label>
+        <input type="password" id='password' requried>
+
+        <p>Are you over the age of 18?</p>
+
+        <label for="yes">Yes:</label>
+        <input type="radio" name="age" id="yes" value='over'>
+        <label for="no">No:</label>
+        <input type="radio" name="age" id="no" value='under'>
+
+        <p>Do you have a Credit Card or PayPal?</p>
+        <select name="payment" id="pay">
+            <option value="CC">Credit Card</option>
+            <option value="PP">PayPal</option>
+        </select>
+        <p></p>
+        
+        <input type="submit" name="" value="Submit Feedback">
+   
+    </form>
+
+</body>
+</html>
